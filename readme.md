@@ -30,14 +30,15 @@
 │   └── transcription.test.ts<br>
 └── tsconfig.json<br>
 
-## Run
+
+## Run via docker-compose
 To run:- `docker-compose up --build` <br>
 to stop:- `docker-compose down`
 
 ## Sample Mp3
 `http://samplelib.com/sample-mp3.html`
 
-## use example.com for mock download
+## use example.com to mock download
 eg: https://example.com/sample
 
 
@@ -48,8 +49,15 @@ eg: https://example.com/sample
 `db.transcriptions.find()`<br>
 `db.transcriptions.getIndexes()`<br>
 
-## To run without docker
-`Update .evn.dev file for mongo url`<br>
+## To run without docker 
+
+### Update .evn.dev file for mongo url<br>
+`PORT=3000`<br>
+`MONGO_URI=mongodb://mongo:27017/transcription_db`<br>
+`DOWNLOAD_RETRY=3`<br>
+`DOWNLOAD_RETRY_DELAY_MS=500`<br>
+`MAXSIZEMB=2`<br>
+
 `npm run build && npm run start`<br>
 
 ## Run test case and coverage

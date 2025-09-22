@@ -1,35 +1,34 @@
 ## File tree ##
-├── docker-compose.yml
-├── Dockerfile
-├── FILE_TREE.txt
-├── jest.config.js
-├── package.json
-├── package-lock.json
-├── readme.md
-├── src
-│   ├── app.ts
-│   ├── config
-│   │   └── db.ts
-│   ├── controllers
-│   │   └── transcription.controller.ts
-│   ├── index.ts
-│   ├── middleware
-│   │   └── validate.ts
-│   ├── models
-│   │   └── transcription.model.ts
-│   ├── routes
-│   │   └── transcription.route.ts
-│   ├── services
-│   │   └── transcription.service.ts
-│   ├── types
-│   │   └── transcription.d.ts
-│   ├── utils
-│   │   └── downloader.ts
-│   └── validators
-│       └── transcription.validator.ts
-├── tests
-│   └── transcription.test.ts
-└── tsconfig.json
+├── docker-compose.yml<br>
+├── Dockerfile<br>
+├── jest.config.js<br>
+├── package.json<br>
+├── package-lock.json<br>
+├── readme.md<br>
+├── src<br>
+│   ├── app.ts<br>
+│   ├── config<br>
+│   │   └── db.ts<br>
+│   ├── controllers<br>
+│   │   └── transcription.controller.ts<br>
+│   ├── index.ts<br>
+│   ├── middleware<br>
+│   │   └── validate.ts<br>
+│   ├── models<br>
+│   │   └── transcription.model.ts<br>
+│   ├── routes<br>
+│   │   └── transcription.route.ts<br>
+│   ├── services<br>
+│   │   └── transcription.service.ts<br>
+│   ├── types<br>
+│   │   └── transcription.d.ts<br>
+│   ├── utils<br>
+│   │   └── downloader.ts<br>
+│   └── validators<br>
+│       └── transcription.validator.ts<br>
+├── tests<br>
+│   └── transcription.test.ts<br>
+└── tsconfig.json<br>
 
 ## Run
 To run:- `docker-compose up --build` <br>
